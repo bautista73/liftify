@@ -1,0 +1,17 @@
+.mobile-navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    /* Additional styles as needed for your specific design */
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+  

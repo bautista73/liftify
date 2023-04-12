@@ -1,0 +1,19 @@
+{
+    "name": "Liftify",
+    "short_name": "Liftify",
+    "start_url": ".",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "/path/to/icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/path/to/icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
+  
