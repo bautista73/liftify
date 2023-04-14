@@ -3,12 +3,16 @@
 .mobile-navbar {
     position: fixed;
     bottom: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 95%;
     background-color: #000;
-    color: #fff;
-    padding: 10px 10px 30px 10px;
+    border-radius: 16px;
+    padding: 12px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
     &-button {
         display: flex;
@@ -17,15 +21,22 @@
         gap: 4px;
 
         .las {
-            color: #eee;
-            font-size: 26px;
+            color: #aaa;
+            font-size: 30px;
         }
 
         &-link {
             text-decoration: none;
-            color: #fff;
+            color: #aaa;
             font-size: 10px;
             font-weight: 300;
+        }
+
+        &:hover {
+            
+            .las, .mobile-navbar-button-link {
+                color: olive;
+            }
         }
     }
 }

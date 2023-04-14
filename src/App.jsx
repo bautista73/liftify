@@ -1,10 +1,10 @@
 import React from 'react';
+import './App.css';
 import MobileNavbar from './components/navigation/MobileNavbar';
 
 const App = () => {
   return (
     <div>
-      <h1>Hello, Web Clip!</h1>
 
       <MobileNavbar />
     </div>
