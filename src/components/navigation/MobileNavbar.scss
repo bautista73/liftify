@@ -6,11 +6,10 @@
     left: 0;
     right: 0;
     margin: auto;
-    margin-bottom: 30px;
-    width: 95%;
-    background-color: #000;
-    border-radius: 16px;
-    padding: 12px;
+    width: 100%;
+    background-color: #202020;
+    border-top: 1px solid #aaa;
+    padding: 12px 15px 40px 15px;
     display: flex;
     justify-content: space-between;
 
@@ -21,23 +20,23 @@
         gap: 4px;
 
         .las {
-            color: #aaa;
+            color: #eee;
             font-size: 30px;
         }
 
         &-link {
             text-decoration: none;
-            color: #aaa;
+            color: #eee;
             font-size: 10px;
             font-weight: 300;
         }
 
-        &:hover {
+        // &:hover {
             
-            .las, .mobile-navbar-button-link {
-                color: olive;
-            }
-        }
+        //     .las, .mobile-navbar-button-link {
+               
+        //     }
+        // }
     }
 }
   
