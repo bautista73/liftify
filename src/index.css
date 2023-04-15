@@ -21,6 +21,7 @@ body {
   -webkit-text-size-adjust: 100%;
   background-color: black;
   width: 100%;
+  max-width: 600px;
   height: 100%;
 }
 
